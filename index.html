@@ -14,7 +14,7 @@
     <meta property="og:url" content="https://xn--2o2b21olqef7bc2z.com/">
     <meta property="og:title" content="할로윈주소 | 공식 주소 안내">
     <meta property="og:description" content="할로윈주소 공식 안내 페이지입니다. 최신 접속 주소와 주요 안내를 확인하세요.">
-    <meta property="og:image" content="https://xn--2o2b21olqef7bc2z.com/%ED%95%A0%EB%A1%9C%EC%9C%88%EB%9E%9C%EB%94%A9%ED%8E%98%EC%9D%B4%EC%A7%80.jpg">
+    <meta property="og:image" content="https://xn--2o2b21olqef7bc2z.com/%ED%8F%89%EC%83%9D%EB%8F%84%EB%A9%94%EC%9D%B8%EC%88%98%EC%A0%95.png">
 
     <script type="application/ld+json">
     {
@@ -23,22 +23,42 @@
       "name": "할로윈주소",
       "url": "https://xn--2o2b21olqef7bc2z.com/",
       "description": "할로윈주소 공식 안내 페이지입니다.",
-      "image": "https://xn--2o2b21olqef7bc2z.com/%ED%95%A0%EB%A1%9C%EC%9C%88%EB%9E%9C%EB%94%A9%ED%8E%98%EC%9D%B4%EC%A7%80.jpg"
+      "image": "https://xn--2o2b21olqef7bc2z.com/%ED%8F%89%EC%83%9D%EB%8F%84%EB%A9%94%EC%9D%B8%EC%88%98%EC%A0%95.png"
     }
     </script>
 
     <style>
         body, html { margin: 0; padding: 0; width: 100%; background-color: #06020b; }
-        .landing-link { display: block; width: 100%; text-align: center; }
+        .landing-frame {
+            position: relative;
+            width: 100%;
+            max-width: 550px;
+            margin: 0 auto;
+        }
         
         .landing-img { 
             width: 100%; 
-            /* 💡 서브 페이지도 똑같이 PC 가로 제한 세팅 */
-            max-width: 550px; 
             height: auto; 
             display: block; 
-            margin: 0 auto; 
             box-shadow: 0 0 20px rgba(0,0,0,0.6);
+        }
+        .domain-hotspot {
+            position: absolute;
+            left: 9.2%;
+            width: 81.6%;
+            height: 3.5%;
+            display: block;
+            background: transparent;
+        }
+        .domain-hotspot:focus-visible {
+            outline: 3px solid #ffdf36;
+            outline-offset: 2px;
+        }
+        .domain-hotspot.primary {
+            top: 79.42%;
+        }
+        .domain-hotspot.secondary {
+            top: 83.84%;
         }
         .sr-only {
             position: absolute;
@@ -63,8 +83,8 @@
         </p>
         <h2>할로윈 실시간 주소 안내</h2>
         <p>
-            현재 안내되는 접속 주소는 https://hw-b1.com 입니다.
-            메인 이미지를 클릭하면 할로윈 사이트로 이동할 수 있습니다.
+            현재 안내되는 접속 주소는 https://hw-b1.com 및 https://hw-w1.com 입니다.
+            이미지 하단의 도메인 영역을 클릭하면 할로윈 사이트로 이동할 수 있습니다.
         </p>
         <h2>할로윈 관련 키워드 안내</h2>
         <p>
@@ -78,9 +98,11 @@
         </p>
     </div>
     
-    <a href="https://hw-b1.com/" class="landing-link" rel="nofollow sponsored">
-        <img src="할로윈랜딩페이지.jpg" alt="할로윈주소 공식 안내 이미지" class="landing-img">
-    </a>
+    <div class="landing-frame">
+        <img src="평생도메인수정.png" alt="할로윈주소 공식 안내 이미지" class="landing-img">
+        <a href="https://hw-b1.com/" class="domain-hotspot primary" rel="nofollow sponsored" aria-label="https://hw-b1.com 바로가기"></a>
+        <a href="https://hw-w1.com/" class="domain-hotspot secondary" rel="nofollow sponsored" aria-label="https://hw-w1.com 바로가기"></a>
+    </div>
 
 </body>
 </html>
